@@ -1,0 +1,122 @@
+/* основной цвет заголовков #212121 */
+/* белый цвет #ffffff  */
+/* основной цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* черный цвет #000000  */
+/* цвет банера и футера #2F303A */
+/* цвет адресов футера rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --title-text-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --main-logo-color: #000000;
+  --pf-cart-border-color: #eeeeee;
+}
+
+body {
+  background-color: var(--main-bg-color);
+
+  color: var(--title-text-color);
+  font-family: 'Roboto', ssans-serif;
+}
+
+/* Footer style */
+.logo {
+  text-decoration: none;
+  color: var(--main-logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.header_nav {
+  list-style: none;
+}
+
+.header_nav .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.header_nav .link:hover,
+.header_nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contact_list {
+  list-style: none;
+}
+
+.contact_list .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* Main style */
+
+/* Section Banner */
+.banner {
+  background-color: var(--footer-bg-color);
+}
+
+.banner .tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner .btn {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Section Peculiarities */
+
+.pec_list {
+  list-style: none;
+}
+
+.pec_list .tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.pec_list .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Section Our work */
