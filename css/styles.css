@@ -120,3 +120,21 @@ body {
 }
 
 /* Section Our work */
+
+.main_work {
+  background-color: #fff;
+}
+
+.main_work .tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.main_work .list {
+  list-style: none;
+}
+
+/* Our team section */
