@@ -18,6 +18,7 @@
   --pf-cart-border-color: #eeeeee;
   --address-link-footer: rgba(255, 255, 255, 0.6);
   --btn-bg-color: #f5f4fa;
+  --btn-click-color: #188ce8;
 }
 
 body {
@@ -85,6 +86,11 @@ body {
   color: var(--main-text-color);
 }
 
+.contact_list .link:hover,
+.contact_list .link:focus {
+  color: var(--accent-color);
+}
+
 /* Main style */
 
 /* Section Banner */
@@ -111,6 +117,10 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
+}
+
+.banner.btn:active {
+  background-color: var(--btn-click-color);
 }
 
 /* Section Peculiarities */
@@ -192,6 +202,7 @@ body {
 }
 
 .address .text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -199,6 +210,7 @@ body {
 }
 
 .address .link {
+  font-style: normal;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
